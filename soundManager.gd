@@ -1,6 +1,6 @@
 #------------------------------------------------------------
-# EV Essential Vectors (c) 2025 - Ryn Carmichael / Trig
-# Sound Manager
+# Godot 4.x Simple Sound Manager (c) 2025
+# Version 1.5.3 Ryn / Trig
 #------------------------------------------------------------
 extends Node
 
@@ -187,7 +187,7 @@ func _add_sound(filename: String) -> int:
 
 
 func _get_sound_id_by_name(filename: String) -> int:
-	var soundNodeName: String = filename.to_lower().replacen(".","_")
+	var soundNodeName: String = filename.replacen(".","_")
 	return soundNodeNames.find(soundNodeName)
 
 
