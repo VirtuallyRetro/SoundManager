@@ -1,6 +1,6 @@
 #------------------------------------------------------------
 # Godot 4.x Simple Sound Manager (c) 2025
-# Version 1.5.3 Ryn / Trig
+# Version 1.5.3 Ryn / Trig (MIT License)
 #------------------------------------------------------------
 extends Node
 
